@@ -11,6 +11,10 @@
     font-weight: 400;
 }
 
+b, strong {
+    font-weight: 600;
+}
+
 html, body {
     height: 100dvh;
     background-color: rgb(249, 250, 251);
@@ -50,13 +54,14 @@ h1 {
     bottom: 10px;
 }
 
-.credits, .credits * {
+.credits {
     color: white;
     font-weight: 300;
 }
 
 .credits a {
     text-decoration: underline;
+    color: whitesmoke;
 }
 
 #sign-up-container {
@@ -84,18 +89,16 @@ h1 {
     font-weight: 1000;
 }
 
-
-
 /* MOBILE */
 .form-container {
     display: flex;
     flex-direction: column;
     background-color: #fff;
     box-shadow: 5px 5px 10px rgb(0 0 0 / 20%);
+    padding: 15px 5px;
     /* align-items: baseline; */
     /* max-height: 100px; */
 }
-
 /* * {
     outline: 1px solid red;
 } */
@@ -147,6 +150,7 @@ button[type="submit"] {
     border: none;
     width: 180px;
     height: 40px;
+    font-weight: 600;
     border-radius: 8px;
 }
 
