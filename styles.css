@@ -36,8 +36,7 @@ h1 {
     background: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
-    position: relative;
-    top: 150px;
+    margin-top: 150px;
     height: 100px;
     line-height: 115px;
     color: white;
@@ -59,7 +58,7 @@ h1 {
     font-weight: 100;
     text-wrap: wrap;
     font-size: 10px;
-    bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .credits a {
@@ -130,7 +129,9 @@ h1 {
         margin: 0;
     }
     #sidebar-image {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         background: url(./images/plants.jpg);
         flex-basis: 600px;
         height: 100dvh;
